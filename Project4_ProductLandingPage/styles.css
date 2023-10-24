@@ -1,0 +1,330 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body
+{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+form h2
+{
+    margin-top: 0;
+    font-size: 40px;
+}
+header
+{   
+    margin: 0;
+    min-height: 8vh;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    align-items: center;
+    position: fixed;
+    top:0;
+    background-color: azure;
+    left: 0;
+}
+
+.logo
+{   
+    width: 40%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav
+{
+    width: 60%;
+    height: 10vh;
+
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover
+{
+    font-weight: 700;
+}
+
+nav ul li
+{   
+    height: 5vh;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul  
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+;
+    
+    
+}
+#header-img
+{
+    display: inline-block;
+   
+    height: 7vh;
+    
+    
+}
+#capyland
+{
+    display: inline-block;
+    font-size: 30px;
+}
+
+#main
+{   
+
+    width: 100%;
+    margin: 10vh 10vh auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#notification
+{
+    width: 80%;
+}
+
+#form
+{   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email
+{
+    height: 35px;
+    width: 400px;
+    padding: 5px;
+}
+
+#submit
+{
+    margin: 10px auto;
+    background-color: chocolate;
+    height: 35px;
+    font-weight: 600;
+}
+
+#submit:hover
+{
+    background-color: rgb(236, 179, 23);
+}
+
+.ficon img
+{
+    max-height: 150px;
+    max-width: 100px;
+}
+
+.bold
+{
+    font-weight: 600;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 200px auto;
+    row-gap: 40px;
+    margin: 20px auto;
+    
+    
+}
+
+p
+{
+    font-size: 20px;
+}
+
+.grid h2
+{
+    width: 100%;
+    margin: 0;
+}
+
+.ficon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#capybara_video
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.grid2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.grid2 product
+{   
+    text-transform: uppercase;
+    
+}
+
+#pricing1, #pricing2, #pricing3
+{
+    border: 2px solid rgb(95, 17, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    width: 40vb;
+}
+
+#pricing1:hover, #pricing2:hover, #pricing3:hover
+{
+    border: 3px solid gold;
+}
+.product
+{
+    font-weight: 600;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 184, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.grid2 h2
+{
+    margin: 10px auto;
+}
+
+.grid2 ul
+{   
+    width: 80%;
+    margin: 10px 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.grid2 ul li
+{
+    margin: 20px 0;
+}
+
+.grid2 button
+{
+    margin: 15px 0;
+    background-color: chocolate;
+    height: 30px;
+    font-weight: 600;
+    border: 0;
+    width: 100px;
+    cursor: pointer;
+    
+} 
+
+.grid button:hover
+{
+    background-color: rgb(236, 179, 23);
+}
+
+
+footer
+{
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;    
+    background-color: azure;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 5px;
+
+
+}
+
+footer ul
+{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 10%;
+    padding: 0;
+    margin: 5px auto;
+    
+}
+
+footer p
+{
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    header
+    {
+        font-size: 15px;
+        
+    
+    }
+    
+
+    }
+    
+    @media (min-width: 1200px) {
+    header
+    {
+        font-size: 25px;
+    
+    }
+    
+  
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        * {
+          scroll-behavior: smooth;
+        }
+      }
